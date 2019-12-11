@@ -11,7 +11,7 @@ export class ShippingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.shippingList = shipping.default;
+    this.shippingList = JSON.parse(JSON.stringify(shipping)).default;
   }
 
 }
