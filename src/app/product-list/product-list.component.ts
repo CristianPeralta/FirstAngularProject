@@ -15,4 +15,7 @@ export class ProductListComponent implements OnInit {
   share() {
     alert('This product has benn shared!');
   }
+  onNotify() {
+    window.alert('You will be notified when the product goes on sale');
+  }
 }
