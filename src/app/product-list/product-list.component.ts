@@ -12,5 +12,7 @@ export class ProductListComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  share() {
+    alert('This product has benn shared!');
+  }
 }
